@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <style>
+        .subject {
+            width: 100%;
+        }
+        textarea {
+            width: 100%;
+        }
+        .divbutton {
+            display: flex;
+            justify-content: center;
+        }
+        form {
+            width: 50%;
+        }
+        label {
+            margin-right: 30px;
+            width: 40%;
+        }
+        input {
+            padding: 4px;
+        }
+        table {
+            border-collapse: collapse;
+            width: 50%;
+        }
+
+        td {
+            border: 3px solid black;
+            padding: 8px;
+        }
+    </style>
+    <title>Formulario contacto</title>
+</head>
+<body>
+    <h1>Formulario de Contacto</h1>
+    <form action="#" method="post">
+        <label for="nombres">Nombres:</label>
+        <input type="text" name="nombres" required placeholder="Ingrese Nombres">
+        <br>
+        <label for="apellidos">Apellido:</label>
+        <input type="text" name="apellidos" required placeholder="Ingrese Apellidos">
+        <br>
+        <hr>
+        <label for="fnacimiento">Fecha Nacimiento:</label>
+        <label for="select">Día</label>
+        <select name="select" id="">
+            <option value="">01</option>
+            <option value="">02</option>
+            <option value="">03</option>
+        </select>
+        <label for="select">Mes</label>
+        <select name="select" id="">
+            <option value="">01</option>
+            <option value="">02</option>
+            <option value="">03</option>
+        </select>
+        <label for="select">Año</label>
+        <select name="select" id="">
+            <option value="">01</option>
+            <option value="">02</option>
+            <option value="">03</option>
+        </select>
+        <br>
+        <label for="sexo">Sexo:</label>
+        <label for="hombre">Hombre</label>
+        <input type="radio" name="sexo" value="hombre" id="hombre">
+        <label for="hombre">Mujer</label>
+        <input type="radio" name="sexo" value="mujer" id="mujer">
+        <br>
+        <hr>
+        <label for="">Asunto:</label>
+        <br>
+        <input class="subject" type="text">
+        <br>
+        <hr>
+        <label for="">Comentario:</label>
+        <br>
+        <textarea name="" id="" cols="30" rows="10"></textarea>
+        <br>
+        <div class="divbutton">
+            <input type="submit" value="Ingresar">
+        </div>
+    </form>
+        <br>
+<table>
+    <tr>
+        <td rowspan="2" colspan="3"></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td rowspan="2"></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td rowspan="2" colspan="2"></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td colspan="2"></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
